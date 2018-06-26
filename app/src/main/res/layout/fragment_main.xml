@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MainFragment"
+    android:background="@drawable/hero_bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:text="@string/q1"
+            android:textSize="20dp"
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:id="@+id/superhero_logos"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heroes"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/option1"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/lightning_icon"
+            android:text="@string/b1"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/option2"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/atomic_icon"
+            android:text="@string/b2"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/option3"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/rocket_icon"
+            android:text="@string/b3"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/chooseBtn"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:text="@string/b4"
+            android:textColor="@color/bgcolor"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:background="@drawable/hero_solid_button"
+            android:backgroundTint="@color/textColor"/>
+
+    </LinearLayout>
+
+</FrameLayout>

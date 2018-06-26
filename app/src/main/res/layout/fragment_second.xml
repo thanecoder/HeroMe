@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SecondFragment"
+    android:background="@drawable/hero_bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/q2"
+            android:textSize="20dp"
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/poption1"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/atomic_icon"
+            android:text="@string/p1"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/poption2"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/lightning_icon"
+            android:text="@string/p2"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/poption3"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/rocket_icon"
+            android:text="@string/p3"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/poption4"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/spiderweb_icon"
+            android:text="@string/p4"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/poption5"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/laservision_icon"
+            android:text="@string/p5"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/poption6"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/superstrength_icon"
+            android:text="@string/p6"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/poption7"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/aquaman_logo"
+            android:text="@string/p7"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/poption8"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/iron_man_logo"
+            android:text="@string/p8"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/poption9"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/cap_america"
+            android:text="@string/p9"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/poption10"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/martial_arts"
+            android:text="@string/p10"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="270dp"
+            android:layout_height="45dp"
+            android:text="@string/b5"
+            android:textColor="@color/bgcolor"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:background="@drawable/hero_solid_button"
+            android:backgroundTint="@color/textColor"/>
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

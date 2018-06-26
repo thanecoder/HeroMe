@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Hero Me</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="q1">How did you get your powers?</string>
+    <string name="q2">Pick a Power</string>
+    <string name="b1">Techical Prowess</string>
+    <string name="b2">Genetic Mutation</string>
+    <string name="b3">Born with them</string>
+    <string name="b4">Choose Powers</string>
+    <string name="p1">Super Genius</string>
+    <string name="p2">Lightning</string>
+    <string name="p3">Flight</string>
+    <string name="p4">Web Slinging</string>
+    <string name="p5">Laser Vision</string>
+    <string name="p6">Super Strength</string>
+    <string name="p7">Power of Sea</string>
+    <string name="p8">Powered Armour</string>
+    <string name="p9">Super Soldier</string>
+    <string name="p10">Martial Arts Expert</string>
+
+    <string name="b5">Show Backstory</string>
+    <string name="b6">Start Over</string>
+    <string-array name="hero_name">
+        <item>Superman</item>
+        <item>Batman</item>
+        <item>Wonder Woman</item>
+        <item>Aquaman</item>
+        <item>Thor</item>
+        <item>Captain America</item>
+        <item>Spiderman</item>
+        <item>Iron Man</item>
+    </string-array>
+    <string-array name="hero_backstory">
+        <item>The origin story of Superman relates that he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction. Discovered and adopted by a farm couple from Kansas, the child is raised as Clark Kent and imbued with a strong moral compass. Early in his childhood, he displays various superhuman abilities, which, upon reaching maturity, he resolves to use for the benefit of humanity through a "Superman" identity.</item>
+        <item>Batman's secret identity is Bruce Wayne, a wealthy American playboy, philanthropist, and owner of Wayne Enterprises. After witnessing the murder of his parents Dr. Thomas Wayne and Martha Wayne as a child, he swore vengeance against criminals, an oath tempered by a sense of justice. Bruce Wayne trains himself physically and intellectually and crafts a bat-inspired persona to fight crime.</item>
+        <item>As the world's first and foremost female superhero, Wonder Woman at once embodies the unrivaled force and supreme grace of a born warrior, and the genuine compassion and understanding of a true humanitarian. She was crafted from clay by Zeus. A symbol of equality, power, and truth, her natural confidence and unmistakable intelligence made her unequaled.</item>
+        <item>Aquaman's most widely recognized power is the telepathic ability to communicate with marine life, which he can summon from great distances. Although this power is most often and most easily used on beings that live in the sea, Aquaman has at times demonstrated the ability to affect any being that lives upon the sea (e.g., sea eagles), or even any being evolved from marine life (e.g., humans and some aliens). </item>
+        <item>The character, based on the Norse deity of the same name, is the Asgardian god of thunder and possesses the enchanted hammer Mjolnir, which grants him the ability to fly and manipulate weather amongst his other superhuman attributes.</item>
+        <item>Captain America has no superhuman powers, but through the Super-Soldier Serum and "Vita-Ray" treatment, he is transformed and his strength, endurance, agility, speed, reflexes, durability, and healing are at the zenith of natural human potential. Rogers' body regularly replenishes the super-soldier serum; it does not wear off.</item>
+        <item> His origin story depicts him as being bitten by a radioactive spider and thus acquiring spider-related abilities, such as the ability to cling to most surfaces; shoot spider-webs using wrist-mounted devices of his own invention, which he calls "web-shooters"; and react to danger quickly with his "spider-sense", enabling him to combat his many superpowered foes</item>
+        <item>A wealthy American business magnate, playboy, and ingenious scientist, Anthony Edward "Tony" Stark suffers a severe chest injury during a kidnapping. When his captors attempt to force him to build a weapon of mass destruction, he instead creates a powered suit of armor to save his life and escape captivity.Stark develops his suit, adding weapons and other technological devices and uses the suit and successive versions to protect the world as Iron Man.</item>
+    </string-array>
+
+</resources>
